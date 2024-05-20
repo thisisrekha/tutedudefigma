@@ -1,0 +1,17 @@
+.root {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+}
+.medal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image:/* webpackIgnore: true */ url('/assets/medal.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
